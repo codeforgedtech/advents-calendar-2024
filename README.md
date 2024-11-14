@@ -1,34 +1,54 @@
-#🎄 Julkalender 2024 🎅
-#Välkommen till min julkalender 2024! 
-#🎁✨ Den här kalendern är en rolig och interaktiv upplevelse där du kan öppna en ny "lucka" varje dag fram till julafton. Bakom varje lucka hittar du en överraskning – det kan vara allt från en kodsnutt till en julig utmaning eller ett meddelande. 🎉
 
-#📅 Hur fungerar det?
-#Kalendern består av 24 luckor som öppnas en efter en från den 1
+##🎄 Julkalender 2024 🎅
+
+##Välkommen till min julkalender 2024! 
+
+##🎁✨ Den här kalendern är en rolig och interaktiv upplevelse där du kan öppna en ny "lucka" varje dag fram till julafton. Bakom varje lucka hittar du en överraskning – det kan vara allt från en kodsnutt till en julig utmaning eller ett meddelande. 🎉
+
+##📅 Hur fungerar det?
+
+##Kalendern består av 24 luckor som öppnas en efter en från den 1
 december till julafton (24
 december).
-#Varje dag hittar du något nytt och spännande att upptäcka.
-#Använd projektet genom att interagera med koden eller öppna luckorna via gränssnittet!
-#🚀 Kom igång
-#För att komma igång, gör följande:
 
-#Kloning av repository
-#git clone https://github.com/ditt-användarnamn/julkalendar-2024.git
-#cd julkalender-2024
-#Installera beroenden (om tillämpligt) Om projektet använder någon form av beroenden, exempelvis via Node.js eller Python, följ dessa steg:
+##Varje dag hittar du något nytt och spännande att upptäcka.
 
-#För Node.js:
-#bash
-#npm install
+##Använd projektet genom att interagera med koden eller öppna luckorna via gränssnittet!
 
-#För Python:
-#bash
-#pip install -r requirements.txt
-#Kör projektet Följ instruktionerna i dokumentationen eller koden för att börja interagera med din julkalender.
+##🚀 Kom igång
 
-#Exempel:
-#bash
-#npm start
-# eller
+##För att komma igång, gör följande:
+##Kloning av repository
+
+##git clone https://github.com/ditt-användarnamn/julkalendar-2024.git
+##cd julkalender-2024
+
+##Installera beroenden (om tillämpligt) Om projektet använder någon form av beroenden, exempelvis via Node.js eller Python, följ dessa steg:
+
+
+##För Node.js:
+
+##bash
+
+##npm install
+
+
+##För Python:
+
+##bash
+
+##pip install -r requirements.txt
+
+##Kör projektet Följ instruktionerna i dokumentationen eller koden för att börja interagera med din julkalender.
+
+
+## Exempel:
+
+## bash
+
+## npm start
+
+## eller
 #python kalender.py
 #🎨 Funktioner
 #Interaktiv kalender: Öppna varje lucka och upptäck dagens överraskning!
