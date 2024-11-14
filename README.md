@@ -3,17 +3,15 @@
 
 ## Välkommen till min julkalender 2024! 
 
-# 🎁✨ Den här kalendern är en rolig och interaktiv upplevelse där du kan öppna en ny "lucka" varje dag fram till julafton. Bakom varje lucka hittar du en överraskning – det kan vara allt från en kodsnutt till en julig utmaning eller ett meddelande. 🎉
+ 🎁✨ Den här kalendern är en rolig och interaktiv upplevelse där du kan öppna en ny "lucka" varje dag fram till julafton. Bakom varje lucka hittar du en överraskning – det kan vara allt från en kodsnutt till en julig utmaning eller ett meddelande. 🎉
 
 ## 📅 Hur fungerar det?
 
-## Kalendern består av 24 luckor som öppnas en efter en från den 1
-december till julafton (24
-december).
+# Kalendern består av 24 luckor som öppnas en efter en från den 1 december till julafton (24 december).
 
 # Varje dag hittar du något nytt och spännande att upptäcka.
 
-#Använd projektet genom att interagera med koden eller öppna luckorna via gränssnittet!
+# Använd projektet genom att interagera med koden eller öppna luckorna via gränssnittet!
 
 ## 🚀 Kom igång
 
