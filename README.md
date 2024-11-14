@@ -7,11 +7,11 @@
 
 ## 📅 Hur fungerar det?
 
-# Kalendern består av 24 luckor som öppnas en efter en från den 1 december till julafton (24 december).
-
-# Varje dag hittar du något nytt och spännande att upptäcka.
-
-# Använd projektet genom att interagera med koden eller öppna luckorna via gränssnittet!
+ Kalendern består av 24 luckor som öppnas en efter en från den 1 december till julafton (24 december).
+#
+Varje dag hittar du något nytt och spännande att upptäcka.
+#
+Använd projektet genom att interagera med koden eller öppna luckorna via gränssnittet!
 
 ## 🚀 Kom igång
 
