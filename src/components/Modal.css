@@ -1,10 +1,10 @@
 .modal-overlay {
     position: fixed;
-    top: 0px;
+    top: 0;
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.7);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -12,65 +12,86 @@
   }
   
   .modal-content {
-    background-color: #fff;
+    background: #fff;
     padding: 20px;
     border-radius: 10px;
-    max-width: 600px;
-    width: 100%;
+    width: 90%;
+    max-width: 400px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .modal-title {
+    font-size: 1.5em;
+    color: #d35400;
+    margin-bottom: 10px;
+  }
+  
+  .modal-description ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin-top: 10px;
     text-align: left;
   }
   
+  .modal-tip {
+    font-style: italic;
+    color: #888;
+    margin-top: 10px;
+  }
+  
+  .modal-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 15px;
+  }
+  
   .close-button {
-    background-color: #d32f2f; /* Mörkare röd för en mer julig känsla */
+    background-color: #d32f2f;
     color: white;
     border: none;
-    padding: 8px 16px; /* Lite större för att göra knappen mer synlig */
-    font-size: 20px;
+    padding: 8px 16px;
+    font-size: 18px;
     font-weight: bold;
     cursor: pointer;
     border-radius: 12px;
    
     top: 10px;
     right: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Lägger till en liten skugga för att ge knappen lite djup */
-    transition: transform 0.2s ease, background-color 0.2s ease; /* Ger en fin effekt när man hovrar eller klickar på knappen */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s ease, background-color 0.2s ease;
   }
   
-  /* När man hovrar över knappen */
   .close-button:hover {
-    background-color: #c2185b; /* Ljusare röd när man hovrar */
-    transform: scale(1.1); /* Gör knappen lite större när man hovrar */
+    background-color: #c2185b;
+    transform: scale(1.1);
   }
   
-  /* När man klickar på knappen */
   .close-button:active {
-    background-color: #880e4f; /* Ännu mörkare när man klickar */
-    transform: scale(0.95); /* Gör knappen lite mindre för att ge en tryck-effekt */
+    background-color: #880e4f;
+    transform: scale(0.95);
   }
   
-  /* För en julig känsla kan du lägga till en liten snöflinga eller dekoration i bakgrunden */
-  .close-button::before {
-    content: "❄️"; /* Snöflingasymbol som dekoration */
-    margin-right: 8px; /* Utrymme mellan snöflingan och texten */
-    font-size: 22px; /* Gör snöflingan större */
+  .snowflakes {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    pointer-events: none;
   }
   
-  .modal-body {
-    margin-top: 20px;
+  .snowflake {
+    position: absolute;
+    color: #fff;
+    animation: fall linear infinite;
+    font-size: 1.5em;
   }
   
-  .modal-body p {
-    margin-bottom: 10px; /* Ger lite mellanrum mellan styckena */
-  }
-  
-  .craft-image {
-    margin-top: 20px;
-    max-width: 60%;
-    height: auto;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 10px;
+  @keyframes fall {
+    0% { top: -10%; opacity: 0; }
+    10% { opacity: 1; }
+    100% { top: 110%; opacity: 0; }
   }
   
   

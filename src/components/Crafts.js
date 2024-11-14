@@ -37,7 +37,7 @@ const crafts = [
         "3. Använd knappar för ögon och klipp en annan färgad strumpa för att göra halsduk och mössa."
       ],
       tips: "Sätt en liten pompom på toppen av mössan för en extra touch.",
-      imageUrl: "path-to-your-image.jpg", // Valfritt
+      imageUrl: "./luckor/lucka4.png", // Valfritt
     },
     {
       title: "Lucka 5: Skapa personliga julkort",
@@ -47,7 +47,7 @@ const crafts = [
         "3. Dekorera med glitterlim, pennor och klistermärken för en personlig touch."
       ],
       tips: "Skriv en hälsning inuti kortet för att sprida julglädje.",
-      imageUrl: "path-to-your-image.jpg", // Valfritt
+      imageUrl: "./luckor/lucka5.png", // Valfritt
     },
     {
       title: "Lucka 6: Gör en papperskrans",
@@ -57,7 +57,7 @@ const crafts = [
         "3. Sätt ett rött band på toppen för att hänga upp."
       ],
       tips: "Använd olika gröna nyanser för en mer naturlig look.",
-      imageUrl: "path-to-your-image.jpg", // Valfritt
+      imageUrl: "./luckor/lucka6.png", // Valfritt
     },
     {
       title: "Lucka 7: Tillverka och dekorera pepparkakor",
@@ -67,7 +67,7 @@ const crafts = [
         "3. Grädda enligt receptet och låt svalna innan du dekorerar med kristyr."
       ],
       tips: "Smält socker kan användas för att sätta ihop delar till pepparkakshus.",
-      imageUrl: "path-to-your-image.jpg", // Valfritt
+      imageUrl: "./luckor/lucka7.png", // Valfritt
     },
     {
       title: "Lucka 8: Snöglob av glasburk!",
@@ -77,7 +77,7 @@ const crafts = [
         "3. Skruva på locket ordentligt och skaka för en snöfallseffekt."
       ],
       tips: "Tillsätt lite glycerin för att få glittret att sjunka långsamt.",
-      imageUrl: "path-to-your-image.jpg", // Valfritt
+      imageUrl: "./luckor/lucka8.png", // Valfritt
     },
     {
       title: "Lucka 9: Adventsstjärna",
@@ -87,7 +87,7 @@ const crafts = [
         "3. Sätt ihop stjärnorna för en 3D-effekt och häng upp i fönstret."
       ],
       tips: "Använd en hålslagare för att skapa ett hål för ett band att hänga upp med.",
-      imageUrl: "path-to-your-image.jpg", // Valfritt
+      imageUrl: "./luckor/lucka9.png", // Valfritt
     },
     {
       title: "Lucka 10: Pärlplattor med julmotiv",
@@ -97,7 +97,7 @@ const crafts = [
         "3. Gör hål för att kunna hänga figurerna som dekoration."
       ],
       tips: "Använd pärlor i olika storlekar för extra effekt.",
-      imageUrl: "path-to-your-image.jpg", // Valfritt
+      imageUrl: "./luckor/lucka10.png", // Valfritt
     },
     {
       title: "Lucka 11: Ljuslykta av glasburk",
@@ -107,7 +107,7 @@ const crafts = [
         "3. Bind ett band runt toppen för en extra touch."
       ],
       tips: "Bind gärna ett rött eller grönt band för julkänsla.",
-      imageUrl: "path-to-your-image.jpg", // Valfritt
+      imageUrl: "./luckor/lucka11.png", // Valfritt
     },
     {
       title: "Lucka 12: Skapa en julby",
@@ -117,7 +117,7 @@ const crafts = [
         "3. Placera små ljusslingor inuti husen för att ge dem en varm känsla."
       ],
       tips: "Häng upp några små träd bredvid husen för extra julstämning.",
-      imageUrl: "path-to-your-image.jpg", // Valfritt
+      imageUrl: "./luckor/lucka12.png", // Valfritt
     },
     {
       title: "Lucka 13: Glitterstjärna",
