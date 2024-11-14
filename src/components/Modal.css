@@ -1,0 +1,77 @@
+.modal-overlay {
+    position: fixed;
+    top: 0px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .modal-content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 600px;
+    width: 100%;
+    text-align: left;
+  }
+  
+  .close-button {
+    background-color: #d32f2f; /* Mörkare röd för en mer julig känsla */
+    color: white;
+    border: none;
+    padding: 8px 16px; /* Lite större för att göra knappen mer synlig */
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 12px;
+   
+    top: 10px;
+    right: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Lägger till en liten skugga för att ge knappen lite djup */
+    transition: transform 0.2s ease, background-color 0.2s ease; /* Ger en fin effekt när man hovrar eller klickar på knappen */
+  }
+  
+  /* När man hovrar över knappen */
+  .close-button:hover {
+    background-color: #c2185b; /* Ljusare röd när man hovrar */
+    transform: scale(1.1); /* Gör knappen lite större när man hovrar */
+  }
+  
+  /* När man klickar på knappen */
+  .close-button:active {
+    background-color: #880e4f; /* Ännu mörkare när man klickar */
+    transform: scale(0.95); /* Gör knappen lite mindre för att ge en tryck-effekt */
+  }
+  
+  /* För en julig känsla kan du lägga till en liten snöflinga eller dekoration i bakgrunden */
+  .close-button::before {
+    content: "❄️"; /* Snöflingasymbol som dekoration */
+    margin-right: 8px; /* Utrymme mellan snöflingan och texten */
+    font-size: 22px; /* Gör snöflingan större */
+  }
+  
+  .modal-body {
+    margin-top: 20px;
+  }
+  
+  .modal-body p {
+    margin-bottom: 10px; /* Ger lite mellanrum mellan styckena */
+  }
+  
+  .craft-image {
+    margin-top: 20px;
+    max-width: 60%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+  }
+  
+  
+  
