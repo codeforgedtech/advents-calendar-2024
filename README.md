@@ -14,7 +14,7 @@ Använd projektet genom att interagera med koden eller öppna luckorna via grän
 ## 🚀 Kom igång
 För att komma igång, gör följande:
 # Kloning av repository
-git clone https://github.com/ditt-användarnamn/julkalendar-2024.git
+git clone https://github.com/codeforgedtech/julkalendar-2024.git
 cd julkalender-2024
 
 # Installera beroenden (om tillämpligt) Om projektet använder någon form av beroenden, exempelvis via Node.js eller Python, följ dessa steg:
