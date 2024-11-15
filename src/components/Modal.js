@@ -11,7 +11,7 @@ const Modal = ({ onClose, content }) => {
             <h2 className="modal-title">🎄 Vänta på rätt dag! 🎄</h2>
             <p className="modal-message">{content.message}</p>
             <p className="modal-tip"><strong>Tips:</strong> Titta på vår kalender och håll utkik efter nästa lucka!</p>
-            <img className="modal-image" src="https://via.placeholder.com/200x200?text=Julbild" alt="Julbild" />
+            <img className="modal-image" src="https://cdn.pixabay.com/photo/2017/11/07/19/23/santa-claus-2927962_1280.png" alt="Julbild" />
           </>
         ) : (
           <>

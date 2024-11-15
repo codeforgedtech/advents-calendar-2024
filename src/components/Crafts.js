@@ -127,7 +127,7 @@ const crafts = [
         "3. Gör flera stjärnor och häng dem i en girlang."
       ],
       tips: "Gör små stjärnor i olika storlekar och färger för en fin effekt.",
-      imageUrl: "path-to-your-image.jpg", // Valfritt
+      imageUrl: "./luckor/lucka13.png", // Valfritt
     },
     {
       title: "Lucka 14: Pepparkaksgirlang",
@@ -137,7 +137,7 @@ const crafts = [
         "3. Förvara girlangen svalt för att hålla den fräsch längre."
       ],
       tips: "Skapa en pepparkaksgirlang i olika former för en varierad dekor.",
-      imageUrl: "path-to-your-image.jpg", // Valfritt
+      imageUrl: "/luckor/lucka14.png", // Valfritt
     },
     {
       title: "Lucka 15: Pappersgran",
@@ -147,7 +147,7 @@ const crafts = [
         "3. Dekorera med små pompoms eller glitter."
       ],
       tips: "Skapa flera små granar och ställ dem på bordet.",
-      imageUrl: "path-to-your-image.jpg", // Valfritt
+      imageUrl: "/luckor/lucka15.png", // Valfritt
     },
     {
       title: "Lucka 16: Juleljus av burk",
@@ -157,7 +157,7 @@ const crafts = [
         "3. Sätt ett snöre runt burkens topp för dekoration."
       ],
       tips: "Byt ut ljusen mot LED-ljus för säkerhets skull.",
-      imageUrl: "path-to-your-image.jpg", // Valfritt
+      imageUrl: "/luckor/lucka16.png", // Valfritt
     },
     {
       title: "Lucka 17: Handgjord julgransprydnad",
@@ -167,7 +167,7 @@ const crafts = [
         "3. Sätt ett band i toppen för att kunna hänga dem i granen."
       ],
       tips: "Använd små pärlor eller paljetter för extra glans.",
-      imageUrl: "path-to-your-image.jpg", // Valfritt
+      imageUrl: "/luckor/lucka17.png", // Valfritt
     },
     {
       title: "Lucka 18: Snöig vinterbild",
@@ -177,7 +177,7 @@ const crafts = [
         "3. Ram in din vinterbild för att ge den en fin avslutning."
       ],
       tips: "Använd glittrande lim för att skapa snöeffekten.",
-      imageUrl: "path-to-your-image.jpg", // Valfritt
+      imageUrl: "/luckor/lucka18.png", // Valfritt
     },
     {
       title: "Lucka 19: Julstjärna av papper",
@@ -187,7 +187,7 @@ const crafts = [
         "3. Häng upp stjärnan med ett snöre."
       ],
       tips: "Använd mönstrat papper för att ge stjärnan mer liv.",
-      imageUrl: "path-to-your-image.jpg", // Valfritt
+      imageUrl: "/luckor/lucka19.png", // Valfritt
     },
     {
       title: "Lucka 20: Röd julkrans",
@@ -197,7 +197,7 @@ const crafts = [
         "3. Sätt ett rött band på toppen för att hänga upp."
       ],
       tips: "Lägg till små pärlor för en extra effekt.",
-      imageUrl: "path-to-your-image.jpg", // Valfritt
+      imageUrl: "/luckor/lucka20.png", // Valfritt
     },
     {
       title: "Lucka 21: Skapa en julbock",
@@ -207,17 +207,18 @@ const crafts = [
         "3. Bind ett band runt halsen för att göra den festlig."
       ],
       tips: "Använd naturmaterial som små kottar för att dekorera.",
-      imageUrl: "path-to-your-image.jpg", // Valfritt
+      imageUrl: "/luckor/lucka21.png", // Valfritt
     },
     {
-      title: "Lucka 22: Snöglob av glasburk",
-      description: [
-        "1. Limma en julfigur på locket av en glasburk.",
-        "2. Fyll burken med vatten och glitter.",
-        "3. Skruva på locket och skaka för snöeffekt."
+      "title": "Lucka 22: Julkotte med glitter",
+      "description": [
+        "1. Samla kottar från naturen och låt dem torka ordentligt.",
+        "2. Måla spetsarna på kottens fjäll med lim.",
+        "3. Strö glitter över limmet och låt torka.",
+        "4. Fäst en ögla med ett snöre på toppen för att kunna hänga kotten i julgranen."
       ],
-      tips: "Använd glycerin för att göra glitteret långsamt sjunka.",
-      imageUrl: "path-to-your-image.jpg", // Valfritt
+      "tips": "Använd olika färger på glittret för en färgglad kotte eller håll det enhetligt med guld och silver för en elegant look.",
+      "imageUrl": "/luckor/lucka22.png" // Valfritt
     },
     {
       title: "Lucka 23: Adventskalenderlåda",
@@ -227,18 +228,19 @@ const crafts = [
         "3. Fyll varje låda med små överraskningar eller godis."
       ],
       tips: "Ställ upp lådorna i en pyramidform för en fin visning.",
-      imageUrl: "path-to-your-image.jpg", // Valfritt
+      imageUrl: "/luckor/lucka23.png", // Valfritt
     },
     {
-      title: "Lucka 24: Julstjärna",
-      description: [
-        "1. Skapa en stor julstjärna av papper eller trä.",
-        "2. Måla eller dekorera med glitter.",
-        "3. Häng upp den på väggen eller i fönstret."
+      "title": "Lucka 24: Gör ett miniatyr-jullandskap",
+      "description": [
+        "1. Använd en liten bricka eller fat som bas.",
+        "2. Placera små dekorationer som miniatyrträd, snögubbar, hus, och djurfigurer för att skapa ett landskap.",
+        "3. Strö över konstsnö eller bomull för en vintrig känsla.",
+        "4. Dekorera med små ljusslingor för extra stämning."
       ],
-      tips: "Lägg till ljus runt stjärnan för att skapa en magisk effekt.",
-      imageUrl: "path-to-your-image.jpg", // Valfritt
-    },
+      "tips": "Placera en liten spegel som 'is' för en fin effekt eller lägg till doftande kryddor som kanel och nejlikor för att skapa juldoft.",
+      "imageUrl": "/luckor/lucka23.png" // Valfritt
+    }
   ];
   
   export default crafts;
